@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para Você 💌</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #ffe6e6; padding: 20px; }
+        .carta { background: white; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); display: inline-block; }
+        .btn { background: red; color: white; border: none; padding: 10px; margin-top: 10px; cursor: pointer; }
+        .mensagem { display: none; margin-top: 20px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <h1>Feliz Aniversário de Namoro!!</h1>
+        <h2>Para o Amor da Minha Vida ❤️</h2>
+        <p>Clique no botão abaixo para abrir a carta amorr:</p>
+        <button class="btn" onclick="mostrarMensagem()">Abrir o Coração do Henrique</button>
+        <p class="mensagem" id="mensagem">Meu amor, esse um ano que passamos juntos, TODOS os dias, foram os melhores anos da minha vida. Cada momentinho foi tão incrível e tão especial! Eu não arrependo de nada do que eu fiz e nós fizemos, pois o amor que eu sinto por você é incomparável. Eu te amo muito mais que tudo!! Feliz Aniversário de Namoro!! Eu vou viver minha vida com você!! De um abraço bem apertado e muitos beijinhos: Henrique Amor ❤️</p>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").style.display = "block";
+        }
+    </script>
+</body>
+</html>
